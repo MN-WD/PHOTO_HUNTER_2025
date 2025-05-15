@@ -19,7 +19,7 @@
                 </header>
 
                 <p class="text-base text-gray-600">
-                    <?php echo $photo['resume']; ?>
+                    <?php echo Core\Helpers\truncate($photo['resume'], 50); ?>
                 </p>
                 <a
                     href="photo.html"
